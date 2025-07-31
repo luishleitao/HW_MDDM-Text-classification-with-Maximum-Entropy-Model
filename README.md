@@ -6,9 +6,9 @@ This repository contains a Jupyter Notebook to classify news headlines as sarcas
 
 ## 📂 Files
 
-- `homework_start-2.ipynb`: Main notebook for the assignment.
-- `data/train_data.json`: Training data (must be downloaded).
-- `data/tests_data.json`: Test data (must be downloaded).
+- `homework3.ipynb`: Main notebook for the assignment.
+- `data/train_data.json`: Training data.
+- `data/tests_data.json`: Test data.
 
 ## 📊 Dataset
 
@@ -19,9 +19,4 @@ The dataset comes from a Kaggle competition and includes:
 Each entry includes:
 - `headline`: News title
 - `is_sarcastic`: 1 for sarcastic, 0 for not
-- `article_link`: (ignored)
 
-## 🔧 Requirements
-
-```bash
-pip install numpy pandas matplotlib scikit-learn
